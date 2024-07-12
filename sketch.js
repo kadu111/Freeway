@@ -1,6 +1,11 @@
+function preload(){
+  preloadImagens();
+  preloadSons();
+}
+
 function setup() {
   createCanvas(500, 400);
-  somDaTrilha.loop();
+  setSoundControl();
 }
 
 function draw() {
